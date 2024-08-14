@@ -22,11 +22,11 @@ This is a simple chatbot application built using Streamlit and Groq's API for ge
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/streamlit-chat-app.git
-    cd streamlit-chat-app
+    https://github.com/Raviteja-5976/Simple_Groq_API-usage.git
+    cd Simple_Groq_API_usage
     ```
 
-2. **Create a virtual environment:**
+2. **Create a virtual environment:(optional but Recommended)**
 
     ```bash
     python3 -m venv venv
@@ -77,4 +77,4 @@ To use the Groq API, follow these steps to obtain your API key:
 To use the Groq API, you need to configure your API key in the code. Replace the placeholder API key in the `Groq(api_key='your_api_key')` line with your actual API key.
 
 ```python
-client = Groq(api_key='your_actual_api_key_here')
+client = Groq(api_key='Your_API_Key')
