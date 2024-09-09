@@ -1,7 +1,8 @@
 import streamlit as st
 from groq import Groq
 
-client = Groq(api_key='Your_API_Key')
+key = st.secrets["auth_token"]
+client = Groq(api_key=key)
 
 st.title('Streamlit Chat App')
 st.subheader('Welcome to the chat app!')
